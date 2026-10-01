@@ -1,0 +1,7 @@
+{
+  "variant": "plan",
+  "id": "example-heading",
+  "label": "예시 · 추진 일정 제목",
+  "from": {"id": "heading-purpose", "revision": 0},
+  "text": {"0": "4", "1": "추진 일정"}
+}

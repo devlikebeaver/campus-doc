@@ -1,0 +1,6 @@
+* text=auto eol=lf
+*.zip binary
+*.bin binary
+*.png binary
+*.bmp binary
+SETUP.cmd text eol=crlf

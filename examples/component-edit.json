@@ -1,0 +1,8 @@
+{
+  "expected_revision": 1,
+  "styles": [
+    {"kind": "charPr", "id": "40", "set": [
+      {"path": ".", "attributes": {"textColor": "#2F6248"}}
+    ]}
+  ]
+}

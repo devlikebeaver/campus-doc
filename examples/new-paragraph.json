@@ -1,0 +1,11 @@
+{
+  "variant": "plan",
+  "id": "example-note",
+  "label": "예시 · 새 안내 문단",
+  "paragraphs": [
+    {"paragraph_style": "55", "runs": [
+      {"character_style": "41", "text": "\uf06d "},
+      {"character_style": "50", "text": "새 컴포넌트를 추가하여 조합한 기능 시험 문서입니다."}
+    ]}
+  ]
+}

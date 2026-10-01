@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+runtime/
+.venv/
+.env
+work/
+*.log
+assets/*/
+!assets/plan/
+!assets/report/
+library/*
+!library/.gitkeep

@@ -1,0 +1,27 @@
+name: Document engine checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  checks:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+      - run: python scripts/setup.py
+      - run: python scripts/doctor.py
+      - run: python scripts/check_public_assets.py
+      - run: python scripts/smoke.py
+      - run: python scripts/check.py
+      - run: python scripts/check_library.py
+      - run: python scripts/check_registry.py

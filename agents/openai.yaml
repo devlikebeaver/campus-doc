@@ -1,0 +1,4 @@
+interface:
+  display_name: "Campus Doc"
+  short_description: "한글 양식·컴포넌트·기관별 디자인 시스템 관리"
+  default_prompt: "Use $campus-doc to create or edit an institutional HWP/HWPX form, preserving its styles and recording structural and visual verification separately."

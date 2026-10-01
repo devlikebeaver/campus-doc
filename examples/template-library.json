@@ -1,0 +1,14 @@
+{
+  "variant": "plan",
+  "id": "example-form",
+  "label": "예시 · 컴포넌트 추가 및 수정 양식",
+  "components": [
+    {"instance": "cover", "component": "cover", "revision": 0},
+    {"instance": "body-title", "component": "body-title", "revision": 0},
+    {"instance": "purpose-heading", "component": "heading-purpose", "revision": 0},
+    {"instance": "purpose", "component": "purpose", "revision": 0},
+    {"instance": "schedule-heading", "component": "example-heading", "revision": 2},
+    {"instance": "note", "component": "example-note", "revision": 1},
+    {"instance": "lecture", "component": "schedule-lecture", "revision": 0}
+  ]
+}
